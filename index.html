@@ -1,179 +1,164 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<!-- Metadata, Stylesheet, Title -->
-
-<!-- Front Version 7.2
-Created by Jerred Shepherd (RiotShielder) -->
-
+<html>
 <head>
-    <title>Home | Joincraft</title>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Minecraft Server">
-    <meta name="author" content="Jerred Shepherd">
-    <link rel="shortcut icon" href="img/favicon.ico">
-    
-    <link href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,600,300,700" rel='stylesheet' type='text/css'>
-
-    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/custom.css" rel="stylesheet">
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>Start - Joincraft</title>
+ <link rel="stylesheet" href="bootstrap.min.css">
+ <link rel="stylesheet" href="style.css">
+ <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,600,700&subset=latin,latin-ext' rel='stylesheet'>
+ <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+ <![endif]-->
 </head>
-
-<!-- Navbar Start -->
-
 <body>
-    <div class="navbar-wrapper">
-
-            <div class="navbar navbar-default navbar-fixed navbar-static-top" role="navigation">
-                <div class="container">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand accent" href="">Joincraft</a>
-                    </div>
-                    <div class="navbar-collapse collapse">
-                        <ul class="nav navbar-nav">
-                            <li class="active"><a href="index.html"><i class="fa fa-home"></i> Home</a>
-                            </li>
-                            <li><a href="play.php"><i class="fa fa-gamepad"></i> Play</a>
-                            </li>
-                            <li><a href="forum"><i class="fa fa-comments-o"></i> Forum</a>
-                            </li>
-                            <li><a href="shop.html"><i class="fa fa-shopping-cart"></i> Shop</a>
-                            </li>
-                            <li><a href="vote.html"><i class="fa fa-check-square-o"></i> Vote</a>
-                            </li>
-                        </ul>
-                        <ul class="nav navbar-nav navbar-right">
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Account <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="http://joincraftserver.xobor.de/login.php">Login</a>
-                                    </li>
-                                    <li><a href="http://joincraftserver.xobor.de/anmeldung.php">Registrieren</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <a href="play.php" class="btn btn-info navbar-btn navbar-right hidden-sm hidden-xs">IP:
-joincraft.nl</a>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
+  <header>
+  <div class="container">
+   <nav class="navbar">
+    <div class="container-fluid">
+     <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+       <span class="icon-bar"></span>
+       <span class="icon-bar"></span>
+       <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Joincraft</a>
+     </div>
+     <div class="collapse navbar-collapse" id="myNavbar">
+   	  <ul class="nav navbar-nav navbar-right">
+   	   <li class="active"><a href="#">Home</a></li>
+   	   <li><a href="forum_post.html">Forum</a></li>
+   	   <li><a href="shop.html">Shop</a></li>
+   	   <li><a href=".\teamspeak.html">TeamSpeak</a></li>
+   	   <li><a href=".\faq\faq.html">Support</a></li>
+      </ul>
+   	 </div>
+   	</div>
+   </nav>
+  </div>
+   <div class="main-part">
+    <div class="container">
+     <h2>Joincraft.nl</h2>
+     <p>24 / 7 Online</p>
+     <hr />
+     <a class="button-one" href="" onclick="IP_MSG()">Jetzt Beitreten!</a>
+     <script>
+	  function IP_MSG() {
+	   alert("\nIP: joincraft.nl\n");
+	   }
+	  </script> 
     </div>
-
-    <!-- Main Image -->
-    <div class="bg-container">
-        <img alt="Background Image" class="random bgimg" height="1920" width="640">
+   </div>
+  </header>
+   <div class="container">
+    <div class="col-md-3 col-sm-4 col-xs-6 item">
+     <div class="gold" alt="VIP"></div>
+     <p>
+      <b>VIP</b>
+      <ul>
+       <li><b>/me</b> - Tarnt deine Schrift</li>
+       <li><b>/chatcolor</b> - Schreibe Farbig im Chat</li>
+       <li><b>/ac</b> - Admin-Support</li>
+       <li>Intresse? <a href="shop.html">Jetzt Kaufen</a></li>
+      </ul>
+     </p>
     </div>
-    <center>
-        <div class="home-text">
-            <div class="col-md-6 col-md-offset-3">
-                <h1 class="home-title">Joincraft</h1>
+    <div class="col-md-3 col-sm-4 col-xs-6 item">
+     <div class="emerald" alt="SuperVIP"></div>
+      <p>
+      <b>SuperVIP</b><br>
+      <ul>
+       <li><b>/me</b> - Tarnt deine Schrift</li>
+       <li><b>/chatcolor</b> - Schreibe Farbig im Chat</li>
+       <li><b>/ac</b> - Admin-Support</li>
+	   <li><b>/bc</b> - Nachicht an alle Spieler</li>
+       <li>Intresse? <a href="shop.html">Jetzt Kaufen</a></li>
+       </ul>
+     </p>
+    </div>
+    <div class="col-md-3 col-sm-4 col-xs-6 item">
+     <div class="diamond" alt="ELITE"></div>
+      <p>
+       <b>ELITE</b>
+       <ul>
+       <li><b>/me</b> - Tarnt deine Schrift</li>
+       <li><b>/chatcolor</b> - Schreibe Farbig im Chat</li>
+       <li><b>/ac</b> - Admin-Support</li>
+	   <li><b>/bc</b> - Nachicht an alle Spieler</li>
+	   <li><b>/mail sendall</b> - E-Mail an alle Spieler</li>
+	   <li>Intresse? <a href="shop.html">Jetzt Kaufen</a></li>
+       </ul>
+      </p>
+    </div>
+    <div class="col-md-3 col-sm-12 col-xs-6 item">
+     <div class="ender-perl" alt="SuperELITE"></div>
+      <p>
+       <b>YouTuber</b>
+       <ul>
+        <li><b>ELITE</b> - Alles was ELITE auch kann.</li>
+        <li><b>Bühne</b> - Auf die Joinunity Bühne</li>
+        <li><b>Screenboxen</b> - Kann in die Screenboxen</li>
+        <li>Intresse? <a href="http://joincraftserver.xobor.de/u1_Kurt.html/">Schreib uns!</a></li>
+       </ul>
+      </p>
+    </div>
+    <div class="row">
+     <div class="col-xs-12 col-sm-9 blog-main">
+      <div class="blog-post">
+       <h2 class="blog-post-title">Server updates</h2>
+       <p class="blog-post-meta">Januar 28, 2018 by <a href="http://joincraftserver.xobor.de/u1_Kurt.html/">Kurt2006</a></p>
+        <p> - Screenboxen geupdatet. - QSG Bugbehebungen</p>
+       <img class="img-responsive" src="images/news2.png" alt="Server news"><br>
+       <p>
+         Teste es gleich aus! <a href="#">Jetzt Spielen!</a>
+	     </p>
+      </div>
+      <div class="blog-post">
+       <h2 class="blog-post-title">Website updates</h2>
+       <p class="blog-post-meta">Januar 28, 2018 by <a href="http://joincraftserver.xobor.de/u1_Kurt.html/">Kurt2006</a></p>
+        <p> - Website ist jetzt öffendlich. - HTML Developer gesucht!</p>
+       <img class="img-responsive" src="images/news.png" alt="website news"><br>
+       <p>
+        Als Developer bewerben: <a href="http://joincraftserver.xobor.de/u1_Kurt.html/">Jetzt Bewerben!</a>
+       </p>
+      </div>
+     </div>
+     <div class="col-xs-12 col-sm-3 blog-sidebar">
+      <div class="sidebar-module sidebar-module-inset">
+       <h4>Forum-Login</h4>
+       <label for="username">Username: </label>
+       <input class="span2" id="username" type="text" required><br>
+       <label for="password">Password:  </label>
+       <input class="span2" id="password" type="password" required><br>
+       <a href="#" class="button-two">Login</a>
+      </div>
+      <div class="sidebar-module">
+       <h4>Beste Spieler:</h4>
+       Du bist auf Platz: 232<br>
+       <img src="https://minotar.net/avatar/Kurt2006/50.png" alt="player">
+       <img src="https://minotar.net/avatar/ChaosLP0705/50.png" alt="player">
+      </div>
+      <div class="sidebar-module">
+       <h4>Wir sind auch auf:</h4>
+       <ol class="list-unstyled">
+        <li><a href="https://www.youtube.com/channel/UCZaTjM8ZS450SpYvRuFv3OQ">Youtube</a></li>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">Facebook</a></li>
+		<a href="whatsapp://send?text=Ich%20habe%20einen%20interessanten%20Artikel%20f%C3%BCr%20dich%20entdeckt%3A%20http%3A%2F%2Fjoincraft.nl"><img src="./wa.jpg" width="100" height="100" alt="WhatsApp"></a>
+       </ol>
+      </div>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <p>&copy; Joincraft | Design & code: Saruna5</p>
+   </footer>
 
-                <p class="home-desc">Dein Server in Minigames und Jump-And-Runs!</p>
-
-                <p><a class="btn btn-lg btn-primary" href="/play.html" role="button">Jetzt Spielen &#187;</a>
-                </p>
-            </div>
-        </div>
-    </center>
-    <br>
-    <br>
-
-    <!-- "Marketing" Area -->
-
-    <div class="container marketing home-img">
-
-        <div class="row">
-            <div class="col-lg-4">
-                <img class="img-circle img-border" src="img/marketing/1.jpg" height="150" width="150" alt="Marketing Image 1">
-                <h2>Closed Beta</h2>
-                <p>Vieleicht hast du Gemerkt das du momentan nicht Joinen kannst. Woran das liegt erfährst du hier.</p>
-                <p><a class="btn btn-default" href="http://joincraftserver.xobor.de/t57f5-SommerClosed.html" role="button">Details &raquo;</a>
-                </p>
-            </div>
-            <div class="col-lg-4">
-                <img class="img-circle img-border"" src="img/marketing/2.jpg" height="150" width="150" alt="Marketing Image 2">
-                <h2>Lagfrei</h2>
-                <p>99% Lagfrei? Ja! Du Fragst dich wie das geht? Das erfährst du hier.</p>
-                <p><a class="btn btn-default" href="#" role="button">Details &raquo;</a>
-                </p>
-            </div>
-            <div class="col-lg-4">
-                <img class="img-circle img-border"" src="img/marketing/3.jpg" height="150" width="150" alt="Marketing Image 3">
-                <h2>Super Community</h2>
-                <p>Einfach die Beste Community. Lerne neue Freunde kennen!</p>
-                <p><a class="btn btn-default" href="http://forum.joincraft.nl" role="button">Details &raquo;</a>
-                </p>
-            </div>
-        </div>
 
 
-
-        <!-- Footer -->
-        <div id="footer">
-            <div class="container hidden-xs">
-                <hr>
-                <ul class='nav nav-pills'>
-                    <li class='pull-left'><a href="http://joincraft.nl">&copy; 2018 Joincraft
-      </a>
-                    </li>
-
-                    <li class="pull-right">
-                        <a href="terms.html">Impressum</a>
-                    </li>
-
-                    <li class="pull-right">
-                        <a href="staff.html">Team</a>
-                    </li>
-
-                    <li class="pull-right">
-                        <a href="help.html">Hilfe</a>
-                    </li>
-					
-                    <li class="pull-right">
-                        <a href="eltern.html">Eltern</a>
-                    </li>
-
-                </ul>
-                <br>
-            </div>
-        </div>
-<script src="http://code.jquery.com/jquery-1.11.2.min.js" type="text/javascript">
-</script>
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript">
-</script>
-
-        <script>
-            function getRandomInt(min, max) {
-                return Math.floor(Math.random() * (max - min + 1)) + min;
-            }
-
-            var imagePath = "img/bg/";
-
-            function displayLogo() {
-                var filename = "bg" + getRandomInt(1, 4).toString() + ".jpg";
-
-                $(".random").attr({
-                    "src": imagePath + filename,
-                });
-            }
-
-            $(document).ready(function () {
-                displayLogo();
-            });
-        </script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+ <script src="bootstrap.min.js"></script>
 </body>
-
 </html>
